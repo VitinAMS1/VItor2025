@@ -1,0 +1,52 @@
+
+#ed1b24;
+body{
+    background-color: #303030;
+}
+
+.pichau__img{
+  padding-left: 10%;
+   padding: 1cm;
+   position: relative;
+   left: 1%;
+}
+
+
+.h4{
+    color: #ffffff;
+    padding-left: 25%;
+    position: relative;
+    top: -100px;
+}
+
+.img__h4{
+
+    padding-right: 5px;
+    position: relative;
+    top: 25px;
+    
+}
+
+.br__img__h4{
+
+    padding-left: 55px;
+
+}
+
+
+.mais__inf{
+
+    position: relative;
+    top: -320px;
+    right: 1%;
+}
+
+.img__web{
+    position: relative;
+    top: -540px;
+}
+
+.img5{
+    position: relative;
+    top: -500px;
+}

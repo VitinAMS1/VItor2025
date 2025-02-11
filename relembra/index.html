@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">Menu</i>
+        <menu id="iten">
+        <ul>
+            <li>Hardware</li>
+            <li>Periféricos</li>
+            <li>Computadores</li>
+            <li>Kit Upgrade</li>
+            <li>Monitores</li>
+            <li>Cadeiras e mesas gamer e escritório</li>
+            <li>Eletronicos</li>
+            <li>Notebooks e Portáteis</li>
+        </ul>
+    </menu>
+    </header>
+
+    <main class="principal">
+        <img class="img" src="./imagi/pc.jpg" alt="Pc gamer" height="15%" width="15%">
+        <p class="paragrafo"><strong> Gamer Completo Pichau, Intel <br> Core i5, RX 580 8GB, 16GB DDR3, SSD <br> 480GB, + Monitor + Kit Periféricos</strong>
+        </p>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display =='block'){
+                intens.style.display ='none'
+            }else{
+                itens.style.display ='block'
+            }
+        }
+    </script>
+</body>
+</html>
